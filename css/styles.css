@@ -11485,27 +11485,35 @@ header.masthead h1, header.masthead .h1 {
 
 .isNotRIMA-TextAlignRight{
   text-align: right;
-  padding: 30px 5px 5px 5px;
+  padding: 40px 30px 40px 30px;
   font-size: 24px;
+}
+
+.isNotRIMA-TextContainer{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
 }
 
 .isNotRIMA-TextAlignLeft{
   text-align: left;
-  padding: 30px 5px 5px 5px;
+  padding: 40px 30px 40px 30px;
   font-size: 24px;
 }
 
 .isNotRIMA-TextAlignleftPadding{
-  padding: 60px 5px 5px 5px;
+  padding: 40px 30px 40px 30px;
   font-size: 24px;
 }
 
 .IsNotRIma_ImgFloatRight{
-  float: right;
+    display: block;
+    margin: auto;
 }
 
 .IsNotRIma_ImgFloatLeft{
-  float: left;
+  display: block;
+    margin: auto;
 }
 
 .page-section-InNotRIMA{
