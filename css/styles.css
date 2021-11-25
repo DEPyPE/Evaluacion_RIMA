@@ -11302,6 +11302,14 @@ body {
   padding: 3rem 0;
 }
 
+.page-section-about{
+  background-color: #0082FF !important;
+}
+
+.icon-color-darkblue{
+  color: #2e3d81 !important;
+}
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
 }
@@ -11317,11 +11325,16 @@ body {
 
 hr.divider {
   height: 0.2rem;
-  max-width: 3.25rem;
+  max-width: 5.25rem;
   margin: 1.5rem auto;
   background-color: #f4623a;
   opacity: 1;
 }
+
+hr.divider{
+  background-color: #2e3d81 !important;
+}
+
 
 hr.divider-light {
   background-color: #fff;
@@ -11442,19 +11455,52 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(62, 69, 100, 0.95);
   transition: opacity 0.25s ease;
   text-align: center;
+  cursor: pointer;
 }
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
+  text-decoration: none;
 }
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
+  font-size: 25px;
 }
+
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.text-description-RIMA{
+  font-size: 20px !important;
+}
+
+/* IS NOT RIMA */
+
+.isNotRIMA-TextAlignRight{
+  text-align: right;
+  padding: 30px 5px 5px 5px;
+}
+
+.isNotRIMA-TextAlignLeft{
+  text-align: left;
+  padding: 30px 5px 5px 5px;
+}
+
+.IsNotRIma_ImgFloatRight{
+  float: right;
+}
+
+.IsNotRIma_ImgFloatLeft{
+  float: left;
+}
+
+.isNotRIMA-TextAlignleftPadding{
+  padding: 60px 5px 5px 5px;  
 }
