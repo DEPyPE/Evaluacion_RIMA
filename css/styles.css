@@ -11486,11 +11486,18 @@ header.masthead h1, header.masthead .h1 {
 .isNotRIMA-TextAlignRight{
   text-align: right;
   padding: 30px 5px 5px 5px;
+  font-size: 24px;
 }
 
 .isNotRIMA-TextAlignLeft{
   text-align: left;
   padding: 30px 5px 5px 5px;
+  font-size: 24px;
+}
+
+.isNotRIMA-TextAlignleftPadding{
+  padding: 60px 5px 5px 5px;
+  font-size: 24px;
 }
 
 .IsNotRIma_ImgFloatRight{
@@ -11501,6 +11508,7 @@ header.masthead h1, header.masthead .h1 {
   float: left;
 }
 
-.isNotRIMA-TextAlignleftPadding{
-  padding: 60px 5px 5px 5px;  
+.page-section-InNotRIMA{
+  background-color: rgba(236, 230, 230, 1);
+  ;
 }
