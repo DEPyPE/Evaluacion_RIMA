@@ -596,7 +596,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -11555,10 +11555,79 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .font-SEG2{
-  font-family: 'Proxima Nova' !important;
+  font-family: 'Baloo 2' !important;
   font-weight: bold !important;
 }
 
 .divider-white{
   background-color: white !important;
+}
+
+/* Eliminar margenes izquierdo y derecho, imagen de fondo en el banner principal*/
+
+body
+a, a.disabled:hover, a:disabled:hover {
+  color: #69a3e1;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 100%;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+ .row1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: -2px;
+}
+
+.col-lg-12 {
+position: relative;
+width: 100%;
+padding-right: 1px !important;
+padding-left: 1px!important;
+}
+
+.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.mt-5, .my-5 {
+  margin-top: 1rem !important;
+}
+
+.jumbotron {
+  background-image: url("assets/img/Banner_RIMA_2021.png");
+  min-height: 623px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  margin-bottom: 0rem;
+}
+
+.ms-rte-layoutszone-inner {
+  word-wrap: break-word;
+  border: 0px solid transparent !important;
+  margin: -2px;
+  padding: 0px !important;
+}
+
+.NoEsRIMA-Container{
+  margin-bottom: -33px !important;
+}
+
+.ms-rtestate-field{
+  padding-right: 0px !important;
+}
+
+#PiePagina{
+  margin-top: -53px ​!important;
 }
