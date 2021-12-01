@@ -11316,6 +11316,7 @@ body {
 
 .text-color-dark{
   color: black !important;
+  font-size: 38px !important;
 }
 
 .text-white-75 {
@@ -11404,16 +11405,6 @@ hr.divider-dark {
 
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
-}
-
-.masthead-img{
-  position: absolute;
-  top: 146px !important;
-  height: 100% !important;
-  width: 80% !important;
-  margin-left: 8% !important;
-  object-fit: fill !important;
-  overflow-y: hidden !important;
 }
 
 .title-page, .content-title-page{
@@ -11602,15 +11593,18 @@ padding-left: 1px!important;
   margin-top: 1rem !important;
 }
 
-.jumbotron {
-  background-image: url("assets/img/Banner_RIMA_2021.png");
-  min-height: 623px;
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.jumbotron-banner {
+  min-height: 601px;
   width: 100%;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  background: linear-gradient( 180deg, #0082be 0%, #0082be 30%, #0082be 30%, #2e3d81 75%, #2e3d81 100% ); 
+}
+
+.img-RIMA-banner{
+  width: 100%;
+  object-fit: cover;
 }
 
 .ms-rte-layoutszone-inner {
@@ -11629,5 +11623,176 @@ padding-left: 1px!important;
 }
 
 #PiePagina{
-  margin-top: -53px ​!important;
+  padding-top: -20px ​!important;
 }
+
+.ShowXL-HideSM{
+  display: block;
+}
+
+.HideXL-ShowSM{
+  display: none;
+}
+
+.text-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.imgQueEsRIMA{
+  height: 100% !important;
+  width: 270px !important;
+}
+
+.ImgRIMAInformacion{
+  height: 100% !important;
+  width: 320px !important;
+}
+
+@media (max-width: 500px) {
+  .jumbotron-banner{
+    min-height: 162px !important;
+    max-height: 100% !important;
+    max-width: 110% !important;
+    margin-left: 0px !important;
+  }
+
+  .page-section-about{
+      max-height: 350px !important;
+      padding: 30px 50px 25px 50px !important;
+  }
+
+  .page-section-information{
+    padding: 3rem 2.5rem !important;
+  }
+
+  .RIMA-description{
+    font-size: 18px !important;
+  }
+
+  .general-information-container{
+    padding-bottom: 0px !important;
+  }
+
+  .link-options{
+    width: 50% !important;
+  }
+
+  .ShowXL-HideSM{
+    display: none;
+  }
+
+  .HideXL-ShowSM{
+    display: block;
+  }
+
+  .adjust-img-sm{
+    width: 80% !important;
+  }
+
+  .project-name{
+    font-size: 15px !important;
+  }
+
+  .imgQueEsRIMA{
+    height: 100% !important;
+    width: 230px !important;
+  }
+  
+  .ImgRIMAInformacion{
+    height: 100% !important;
+    width: 260px !important;
+  }
+
+  .TextNoEsRIMA{
+    font-size: 38px !important;
+  }
+
+  .text-color-dark{
+    font-size: 28px !important;
+  }
+
+  .isNotRIMA-TextContainer{
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .isNotRIMA-TextAlignRight{
+    text-align: justify !important;
+    padding: 25px;
+    font-size: 20px;
+  }
+  
+  .isNotRIMA-TextAlignLeft{
+    text-align: justify !important;
+    padding: 25px;
+    font-size: 20px;
+  }
+  
+  .isNotRIMA-TextAlignleftPadding{
+    text-align: justify !important;
+    padding: 25px;
+    font-size: 20px;
+  }
+  
+}
+
+@media (min-width: 951px) {
+  .jumbotron-banner{
+    min-height: 162px !important;
+    max-height: 100% !important;
+    max-width: 110% !important;
+    margin-left: 0px !important;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 950px) {
+  .jumbotron-banner{
+    min-height: 162px !important;
+    max-height: 100% !important;
+    max-width: 110% !important;
+    margin-left: 0px !important;
+    background-size: cover;
+  }
+
+  .page-section-about{
+      max-height: 350px !important;
+      padding: 30px 50px 25px 50px !important;
+  }
+
+  .page-section-information{
+    padding: 3rem 2.5rem !important;
+  }
+
+  .RIMA-description{
+    font-size: 18px !important;
+  }
+
+  .general-information-container{
+    padding-bottom: 0px !important;
+  }
+
+  .link-options{
+    width: 50% !important;
+  }
+
+  .ShowXL-HideSM{
+    display: none;
+  }
+
+  .HideXL-ShowSM{
+    display: block;
+  }
+
+  .adjust-img-sm{
+    width: 80% !important;
+  }
+
+  .project-name{
+    font-size: 15px !important;
+  }
+
+}
+
