@@ -11494,12 +11494,14 @@ header.masthead h1, header.masthead .h1 {
   text-align: right !important;
   padding: 40px 30px 40px 30px;
   font-size: 24px;
+  color: rgb(17, 56, 98) !important;
 }
 
 .isNotRIMA-TextContainer{
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
 }
 
 .general-information-container{
@@ -11510,6 +11512,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: left !important;
   padding: 40px 30px 40px 30px;
   font-size: 24px;
+  color: rgb(17, 56, 98) !important;
 }
 
 .isNotRIMA-TextAlignleftPadding{
@@ -11598,6 +11601,7 @@ padding-left: 1px!important;
 }
 
 .jumbotron-banner {
+  top: -20px !important;
   min-height: 601px;
   width: 100%;
   margin-bottom: 0;
@@ -11655,7 +11659,7 @@ padding-left: 1px!important;
 
 .important-docs-and-links-container{
   padding: 30px 30px 0 30px;
-  background-color: #DADADA !important;
+  background-color: rgba(210, 210, 210, 0.8) !important;
 /*  background: linear-gradient(90deg, rgba(93, 171, 194, 1) 0%, rgba(93, 171, 194, 1) 33.3%, rgba(131, 191, 201, 1) 33.3%, rgba(131, 191, 201, 1) 66.6%, rgba(167, 215, 212, 1) 66.6%, rgba(167, 215, 212, 1) 100% ); */
 }
 
@@ -11689,7 +11693,7 @@ padding-left: 1px!important;
 }
 
 .modal-content-color{
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
   border-radius: 15px !important;
 }
 
@@ -11700,16 +11704,26 @@ padding-left: 1px!important;
 .btn-close-VideoRIMA{
   position: relative;
   margin-top: -30px !important;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1) !important;
   border-radius: 50% !important;
-  padding: 10px !important;
+  padding: 5px !important;
   z-index: 1000;
   left: 99% !important;
   top: -10px !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
 }
 
 .modal-dialog-VideoRIMA{
   margin-top: 3rem;
+}
+
+.link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
+  width: 25% !important;
+}
+
+.link-options5{
+  margin-left: 12.5%;
 }
 
 @media (max-width: 500px) {
@@ -11785,26 +11799,39 @@ padding-left: 1px!important;
     width: 90% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    color: rgb(17, 56, 98) !important;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
   }
 
   .isNotRIMA-TextAlignRight{
     text-align: justify !important;
     padding: 25px;
     font-size: 20px;
+    color: rgb(17, 56, 98) !important;
   }
   
   .isNotRIMA-TextAlignLeft{
     text-align: justify !important;
     padding: 25px;
     font-size: 20px;
+    color: rgb(17, 56, 98) !important;
   }
   
   .isNotRIMA-TextAlignleftPadding{
     text-align: justify !important;
     padding: 25px;
     font-size: 20px;
+    color: rgb(17, 56, 98) !important;
   }
-  
+
+  .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
+    width: 50%;
+  }
+
+  .link-options5{
+    margin-left: 0 !important;
+  }
+
 }
 
 @media (min-width: 951px) {
@@ -11815,9 +11842,21 @@ padding-left: 1px!important;
     margin-left: 0px !important;
     background-size: cover;
   }
+
+  .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
+    width: 50%;
+  }
+
+  .link-options5{
+    margin-left: 12.5% !important;
+  }
 }
 
 @media (max-width: 950px) {
+  .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
+    width: 50% !important;
+  }
+
   .jumbotron-banner{
     min-height: 162px !important;
     max-height: 100% !important;
@@ -11860,8 +11899,12 @@ padding-left: 1px!important;
   }
 
   .project-name{
-    font-size: 15px !important;
+    font-size: 15px !important; 
     padding: 10px !important;
+  }
+
+  .link-options7{
+    margin-left: 25% !important;
   }
 
 }
