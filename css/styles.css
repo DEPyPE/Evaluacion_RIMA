@@ -11464,7 +11464,6 @@ header.masthead h1, header.masthead .h1 {
   color: #fff;
   background: rgba(62, 69, 100, 0.85);
   transition: opacity 0.25s ease;
-  text-align: center;
   cursor: pointer;
   border-radius: 15px !important;
 }
@@ -11724,19 +11723,22 @@ padding-left: 1px!important;
 }
 
 .modal-content-color{
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px);
   border-radius: 15px !important;
   padding: 5px !important;
 }
 
 .modal-content-color-enlaces{
-  background-color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(6px);
   border-radius: 15px !important;
-  padding: 10px !important;
+  padding: 5px !important;
 }
 
 .modal-content-resultados-menu{
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(4px);
   border-radius: 15px !important;
   padding: 12px !important;
 }
@@ -11805,7 +11807,7 @@ padding-left: 1px!important;
 .accordion-item{
   text-decoration: none;
   color: black !important;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -11948,7 +11950,7 @@ padding-left: 1px!important;
 }
 
 .card-resultados-color{
-  background-color: rgb(244, 98, 58) !important;
+  background-color: rgb(180, 199, 231) !important;
   color: white !important;
 }
 
@@ -11957,8 +11959,16 @@ padding-left: 1px!important;
 }
 
 .btn-click-ver-resultados{
+  background-color: rgb(180, 199, 231) !important;
+  color: white !important;
+  border: 0 !important;
   height: 100px !important;
   width: 80% !important;
+  border-radius: 15px !important;
+}
+
+.btn-click-ver-resultados:hover{
+  background-color: rgba(160, 179, 211, 0.8) !important;
 }
 
 @media (min-width: 951px) {
