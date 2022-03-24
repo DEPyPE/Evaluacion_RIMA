@@ -11530,8 +11530,8 @@ header.masthead h1, header.masthead .h1 {
 
 .isNotRIMA-TextContainer{
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
   box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
 }
 
@@ -11723,13 +11723,26 @@ padding-left: 1px!important;
   top: -10px !important;
 }
 
-.modal-content-color, .modal-content-resultados-menu{
+.modal-content-color{
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 5px !important;
+}
+
+.modal-content-color-enlaces{
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 15px !important;
+  padding: 10px !important;
+}
+
+.modal-content-resultados-menu{
   background-color: rgba(255, 255, 255, 0.9) !important;
   border-radius: 15px !important;
   padding: 12px !important;
 }
 
-.modal-dialog{
+.modal-dialog-resultados-menu{
+  top: 7% !important;
   max-width: 600px !important;
 }
 
