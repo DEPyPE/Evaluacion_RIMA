@@ -45,5 +45,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-
+$('.btn-close-menu-resultados').on('click', function(){
+    console.log('clicked');
+    $("#ResultadosPorActorParticipante").modal({show: false});
+});
 

@@ -11466,6 +11466,7 @@ header.masthead h1, header.masthead .h1 {
   transition: opacity 0.25s ease;
   text-align: center;
   cursor: pointer;
+  border-radius: 15px !important;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
@@ -11477,11 +11478,41 @@ header.masthead h1, header.masthead .h1 {
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 25px;
+  font-size: 24px;
+}
+
+.project-name-resultados{
+  font-size: 18px !important;
+}
+
+.project-name-aplicacion{
+  font-size: 18px !important;
+}
+
+.img-left-links{
+  border-radius: 15px !important;
+  width: 100% !important;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
+}
+
+.img-right-links{
+  border-radius: 15px !important;
+  width: 100% !important;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
+}
+
+.portfolio-box{
+  margin-right: 30px !important;
+  margin-left: 30px !important;
+}
+
+.row-2elements{
+  margin-bottom: 40px !important;
 }
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+  border-radius: 15px !important;
 }
 
 .text-description-RIMA{
@@ -11692,16 +11723,17 @@ padding-left: 1px!important;
   top: -10px !important;
 }
 
-.modal-content-color{
-  background-color: rgba(0, 0, 0, 0.4) !important;
+.modal-content-color, .modal-content-resultados-menu{
+  background-color: rgba(255, 255, 255, 0.9) !important;
   border-radius: 15px !important;
 }
 
 .modal-body-style{
-  padding: 10px 15px 10px 15px !important;
+  padding: 5px 15px 10px 15px !important;
 }
 
-.btn-close-VideoRIMA{
+.btn-close-VideoRIMA, .btn-close-enlaces,
+.btn-close-menu-resultados{
   position: relative;
   margin-top: -30px !important;
   background-color: rgba(255, 255, 255, 1) !important;
@@ -11714,16 +11746,45 @@ padding-left: 1px!important;
   min-height: 30px !important;
 }
 
+.btn-close-menu-resultados{
+  background-color: rgba(255, 255, 255, 1) !important;
+  left: 102% !important;
+  top: -20px !important;
+}
+
+.modal-content-resultados-menu{
+  padding: 12px !important;
+}
+
+.btn-close-enlaces{
+  background-color: rgba(160, 160, 160, 1) !important;  
+  text-decoration: white;
+}
+
 .modal-dialog-VideoRIMA{
   margin-top: 3rem;
 }
 
 .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
-  width: 25% !important;
+  width: 32% !important;
 }
 
 .link-options5{
   margin-left: 12.5%;
+}
+
+.modal-footer{
+  padding: 0.75rem 0.75rem 0 0.75rem !important;
+}
+
+.img-link1{
+  border-radius: 15px !important;
+  height: 130% !important;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
+}
+
+.portfolio-box-modal{
+  margin: 2px !important;
 }
 
 @media (max-width: 500px) {
@@ -11773,10 +11834,9 @@ padding-left: 1px!important;
   }
 
   .project-name{
-    font-size: 15px !important;
     padding: 10px !important;
   }
-
+  
   .imgQueEsRIMA{
     height: 100% !important;
     width: 230px !important;
@@ -11832,6 +11892,29 @@ padding-left: 1px!important;
     margin-left: 0 !important;
   }
 
+}
+
+.modal-dialog-EnlacesResultados{
+  max-width: 60% !important;
+}
+
+.primaria-title, .secundaria-title{
+  font-size: 28px !important;
+  margin: 22px 0 0 25px !important;
+  color:rgb(17, 56, 98);
+}
+
+.primaria-title{
+  margin-top: -5px !important;
+}
+
+.row-docs-aplicacion{
+  margin-left: 25px !important;
+}
+
+.link-image2, .link-image3, .link-image5,
+.link-image6{
+  margin-left: 15px !important;
 }
 
 @media (min-width: 951px) {
