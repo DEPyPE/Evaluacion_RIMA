@@ -11939,6 +11939,28 @@ padding-left: 1px!important;
   margin-left: 15px !important;
 }
 
+.card-rima-information{
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 15px !important;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
+  margin-left: 15px !important;
+}
+
+.card-resultados-color{
+  background-color: rgb(244, 98, 58) !important;
+  color: white !important;
+}
+
+.text-resultados, .icon-color-resultados{
+  color: white !important;
+}
+
+.btn-click-ver-resultados{
+  height: 100px !important;
+  width: 80% !important;
+}
+
 @media (min-width: 951px) {
   .jumbotron-banner{
     min-height: 162px !important;
