@@ -11977,7 +11977,7 @@ padding-left: 1px!important;
 
 .card-rima-information{
   width: 100% !important;
-  height: auto !important;
+  height: 320px !important;
   border-radius: 15px !important;
   box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
   margin-bottom: 15px;
@@ -12029,6 +12029,10 @@ padding-left: 1px!important;
 }
 
 @media (max-width: 950px) {
+  .card-rima-information{
+    height: auto !important;
+  }
+
   .row-docs-aplicacion, .link-image2, .link-image3, .link-image4, .link-image5, .link-image6, .link-image7, .link-image8, .link-image9,
   .link-image10, .link-image11{
     margin-left: 0 !important;
