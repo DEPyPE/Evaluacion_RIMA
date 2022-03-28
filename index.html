@@ -186,85 +186,66 @@
                 </div>
             </div>
 
+            <!-- MODAL PARA LOS RESULTADOS DE RIMA-->
             <div class="modal" id="ResultadosPorActorParticipante">
                 <div class="modal-dialog modal-dialog-resultados-menu">
                   <div class="modal-content modal-content-resultados-menu">
               
                     <!-- Modal body -->
                     <div class="modal-body modal-body-resultados-menu">
-                        <h4 class="modal-title">Resultados de la evaluación RIMA:</h4> <br>
+                        <h4 class="modal-title">Resultados de la evaluación RIMA</h4> <br>
 
-                        <div id="accordion" class="accordion-menu-resultados">
-
-                            <div class="card card-item">
-                                <a class="card-link accordion-item" data-toggle="collapse" href="#collapseOne">
-                                    <div class="card-header card-header-item">
-                                        Estudiantes
-                                    </div>
-                                </a>
-                              
-                              <div id="collapseOne" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                              <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Estudiantes</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Madre/Padre de familia o tutor</a>
+                                <a class="list-group-item list-group-item-action active" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Jefes de sector/Supervisores/Directores y Docentes</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Resultados estatales (público en general)</a>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="tab-content" id="nav-tabContent">
+                                  
+                                <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                                     <div class="list-group">
                                         <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
                                         <a href="#" class="list-group-item list-group-item-action">Tutorial</a>
                                     </div>
                                 </div>
-                              </div>
-                            </div>
-
-                            <div class="card card-item">
-                                <a class="card-link accordion-item" data-toggle="collapse" href="#collapseTwo">
-                                    <div class="card-header card-header-item">
-                                        Madre/Padre de familia o tutor
-                                    </div>
-                                </a>
-                              
-                              <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
+                                
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                                     <div class="list-group">
                                         <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
                                         <a href="#" class="list-group-item list-group-item-action">Tutorial</a>
                                     </div>
                                 </div>
-                              </div>
-                            </div>
-
-                            <div class="card card-item">
-                                <a class="card-link accordion-item" data-toggle="collapse" href="#collapseThree">
-                                    <div class="card-header card-header-item">
-                                        Jefes de sector, Supervisores, Directores y Docentes
-                                    </div>
-                                </a>
-                              
-                              <div id="collapseThree" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
+                                
+                                <div class="tab-pane fade show active" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
                                     <div class="list-group">
                                         <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
                                         <a href="#" class="list-group-item list-group-item-action">Tutorial</a>
+                                    </div><br>
+
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Unidad de análisis, alineación con CONCUPRISE</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Guía para el uso de los reportes y análisis de los resultados</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Infografías ABC de RIMA</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Documentos metodológicos</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Orientación didáctica</a>
                                     </div>
                                 </div>
-                              </div>
-                            </div>
 
-                            <div class="card card-item">
-                                <a class="card-link accordion-item" data-toggle="collapse" href="#collapseFour">
-                                    <div class="card-header card-header-item">
-                                        Resultados estatales (público en general)
-                                    </div>
-                                </a>
-                              
-                              <div id="collapseFour" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
+                                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
                                     <div class="list-group">
                                         <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
                                     </div>
                                 </div>
+
                               </div>
                             </div>
-
-
                           </div>
+
                     </div>
 
                     <!-- Modal footer -->
@@ -535,8 +516,8 @@
                     <div class="col-lg-12 col-md-12">
                         <section class="page-section page-section-InNotRIMA" id="services">
                             <div class="container px-4 px-lg-5">
-                                <h2 class="text-center mt-0 font-SEG QueNoEsRIMA-text text-color-dark">Qué no es RIMA</h2>
-                                <hr class="divider divider-dark" />
+                                <h2 class="text-center mt-0 font-SEG QueNoEsRIMA-text">Qué no es RIMA</h2>
+                                <hr class="divider divider-blue" />
                             <div class="row gx-4 gx-lg-5">
 
                             <!-- IMAGEN 1 -->
