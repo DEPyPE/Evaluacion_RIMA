@@ -11754,7 +11754,7 @@ padding-left: 1px!important;
 
 .modal-dialog-resultados-menu{
   top: 7% !important;
-  max-width: 75% !important;
+  max-width: 70% !important;
 }
 
 .modal-body-style{
@@ -11765,6 +11765,11 @@ padding-left: 1px!important;
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.list-group{
+  border-radius: 15px !important;
+  overflow-y: clip;
 }
 
 .btn-close-VideoRIMA, .btn-close-enlaces,
