@@ -5496,7 +5496,7 @@ textarea.form-control-lg {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin: 130px 30px 30px 30px;
   pointer-events: none;
 }
 .modal.fade .modal-dialog {
@@ -11507,6 +11507,7 @@ header.masthead h1, header.masthead .h1 {
 .portfolio-box{
   margin-right: 30px !important;
   margin-left: 30px !important;
+  margin-bottom: 20px;
 }
 
 .row-2elements{
@@ -11753,7 +11754,7 @@ padding-left: 1px!important;
 }
 
 .modal-dialog-resultados-menu{
-  top: 7% !important;
+  top: 0% !important;
   max-width: 70% !important;
 }
 
@@ -11800,7 +11801,7 @@ padding-left: 1px!important;
 }
 
 .modal-dialog-VideoRIMA{
-  margin-top: 3rem;
+  margin-top: 70%;
 }
 
 .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
@@ -11834,6 +11835,16 @@ padding-left: 1px!important;
 
 
 @media (max-width: 500px) {
+  .modal-dialog-resultados-menu{
+      max-width: 90% !important;
+      margin-left: 20px;
+      margin-top: 50px !important;
+  }
+
+  .list-group-menu-actores{
+    margin-bottom: 30px;
+  }
+
   .jumbotron-banner{
     min-height: 162px !important;
     max-height: 100% !important;
@@ -11847,7 +11858,7 @@ padding-left: 1px!important;
   }
 
   .page-section-about{
-      max-height: 350px !important;
+      max-height: 100% !important;
       padding: 30px 50px 25px 50px !important;
   }
 
@@ -11941,7 +11952,8 @@ padding-left: 1px!important;
 }
 
 .modal-dialog-EnlacesResultados{
-  max-width: 60% !important;
+  max-width: 85% !important;
+  margin-top: 5% !important;
 }
 
 .primaria-title, .secundaria-title{
@@ -11965,10 +11977,10 @@ padding-left: 1px!important;
 
 .card-rima-information{
   width: 100% !important;
-  height: 280px !important;
+  height: auto !important;
   border-radius: 15px !important;
   box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
-  margin-left: 15px !important;
+  margin-bottom: 15px;
 }
 
 .card-resultados-color{
@@ -12009,9 +12021,19 @@ padding-left: 1px!important;
   .link-options5{
     margin-left: 12.5% !important;
   }
+
+  .row-docs-aplicacion{
+    margin-left: 0px !important;
+  }
+  
 }
 
 @media (max-width: 950px) {
+  .row-docs-aplicacion, .link-image2, .link-image3, .link-image4, .link-image5, .link-image6, .link-image7, .link-image8, .link-image9,
+  .link-image10, .link-image11{
+    margin-left: 0 !important;
+  }
+
   .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
     width: 50% !important;
   }
@@ -12025,7 +12047,7 @@ padding-left: 1px!important;
   }
 
   .page-section-about{
-      max-height: 350px !important;
+      max-height: 100% !important;
       padding: 30px 50px 25px 50px !important;
   }
 
