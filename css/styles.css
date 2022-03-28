@@ -11801,7 +11801,7 @@ padding-left: 1px!important;
 }
 
 .modal-dialog-VideoRIMA{
-  margin-top: 70%;
+  margin-top: 10%;
 }
 
 .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
@@ -11949,11 +11949,11 @@ padding-left: 1px!important;
     margin-left: 0 !important;
   }
 
-}
+  .modal-dialog-EnlacesResultados{
+    max-width: 85% !important;
+    margin-top: 5% !important;
+  }
 
-.modal-dialog-EnlacesResultados{
-  max-width: 85% !important;
-  margin-top: 5% !important;
 }
 
 .primaria-title, .secundaria-title{
@@ -11972,12 +11972,12 @@ padding-left: 1px!important;
 
 .link-image2, .link-image3, .link-image5,
 .link-image6{
-  margin-left: 15px !important;
+  margin-left: 0 !important;
 }
 
 .card-rima-information{
   width: 100% !important;
-  height: 320px !important;
+  height: 285px !important;
   border-radius: 15px !important;
   box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
   margin-bottom: 15px;
@@ -12005,6 +12005,16 @@ padding-left: 1px!important;
   background-color: rgba(160, 179, 211, 0.8) !important;
 }
 
+.list-group .list-group-item:first-child{
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.list-group .list-group-item:last-child{
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+
 @media (min-width: 951px) {
   .jumbotron-banner{
     min-height: 162px !important;
@@ -12029,6 +12039,10 @@ padding-left: 1px!important;
 }
 
 @media (max-width: 950px) {
+  .modal-dialog-VideoRIMA{
+    margin-top: 50%;
+  }
+
   .card-rima-information{
     height: auto !important;
   }
