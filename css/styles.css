@@ -5491,7 +5491,9 @@ textarea.form-control-lg {
   backdrop-filter: blur(4px) !important;
 }
 
-
+.title-guia-resultados{
+  font-size: 18px !important;
+}
 
 .modal-dialog {
   position: relative;
