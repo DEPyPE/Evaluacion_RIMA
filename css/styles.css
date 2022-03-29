@@ -11801,7 +11801,7 @@ padding-left: 1px!important;
 }
 
 .modal-dialog-VideoRIMA{
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
@@ -11983,6 +11983,11 @@ padding-left: 1px!important;
   margin-bottom: 15px;
 }
 
+.card-rima-transmision-resultados{
+  background-color: none !important;
+  background-image: url("assets\img\transmision_resultados.jpg") !important;
+}
+
 .card-resultados-color{
   background-color: rgb(180, 199, 231) !important;
   color: white !important;
@@ -12003,6 +12008,14 @@ padding-left: 1px!important;
 
 .btn-click-ver-resultados:hover{
   background-color: rgba(160, 179, 211, 0.8) !important;
+}
+
+.btn-live-results{
+  width: 320px !important;
+}
+
+.img-evento-fecha{
+  width: 50% !important;
 }
 
 .list-group .list-group-item:first-child{
@@ -12040,7 +12053,7 @@ padding-left: 1px!important;
 
 @media (max-width: 950px) {
   .modal-dialog-VideoRIMA{
-    margin-top: 50%;
+    margin-top: 5%;
   }
 
   .card-rima-information{
