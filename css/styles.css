@@ -11804,6 +11804,7 @@ padding-left: 1px!important;
 
 .modal-dialog-VideoRIMA{
   margin-top: 2%;
+  height: 63% !important;
 }
 
 .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
@@ -12014,6 +12015,25 @@ padding-left: 1px!important;
 
 .btn-live-results{
   width: 320px !important;
+}
+
+.gif-en-vivo{
+  width: 300px !important;
+}
+
+.transmision-en-vivo-rima {
+  width: 100% !important;
+  height: 420px !important;
+}
+
+.modal-content-video-transmision{
+  height: 100% !important;
+}
+
+.btn-resutlados-en-vivo{
+  width: 200px !important;
+  height: 50px !important;
+  font-size: 26px;
 }
 
 .img-evento-fecha{
