@@ -11825,6 +11825,18 @@ padding-left: 1px!important;
   text-align: left;
 }
 
+.badge-in-future{
+  position: absolute;
+  right: 10px;
+  width: auto;
+  background-color: #607d8b;
+  color: white;
+  font-size: 11px;
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+  margin-bottom: 15px;
+}
+
 
 @media (max-width: 500px) {
   .modal-dialog-resultados-menu{
