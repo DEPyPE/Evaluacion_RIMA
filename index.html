@@ -96,19 +96,26 @@
             <!-- Modal para mostrar el video de arranque de la evaluación RIMA -->
             <div class="modal fade" id="ModalVideoRIMA" tabindex="-1" aria-labelledby="ModalVideoRIMALabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-VideoRIMA modal-lg">
-                    <div class="modal-content modal-content-color">
+                    <div class="modal-content modal-content-color modal-content-video-transmision">
                         <div class="modal-body modal-body-style">
                                 <button type="button" class="btn-close btn-close-VideoRIMA" data-bs-dismiss="modal" aria-label="Close"></button>
                                 
                                 <div class="text-center">
-                                    <div class="mb-2"> <i class="bi bi-calendar-event fs-1" style="color:white;"></i></div>
-                                    <h2 class="mb-2" style="color:white;">Proximamente</h2>
+                                    <!--<div class="mb-2"> <i class="bi bi-calendar-event fs-1" style="color:white;"></i></div>-->
+                                    <!--<h3 class="white-text">Da click en la imagen para ver el evento</h3>-->
+                                    <iframe class="transmision-en-vivo-rima" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEducacionGto%2Fvideos%2F3286320071655145%2F&show_text=false&width=560&t=0"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                                    <!--
+                                    <a href="https://www.facebook.com/EducacionGto/videos/3286320071655145/" target="__blank">
+                                        <img src="assets/img/evento_hora.jpg" class="img-evento-fecha">
+                                    </a>-->
                                 </div>
                         </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
 
             <!-- Sección de información general sobre RIMA -->
             <div class="row1">
@@ -251,7 +258,7 @@
 
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
                     </div>
               
                   </div>

@@ -1,15 +1,4 @@
-@charset "UTF-8";
-/*!
-* Start Bootstrap - Creative v7.0.5 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -5491,7 +5480,9 @@ textarea.form-control-lg {
   backdrop-filter: blur(4px) !important;
 }
 
-
+.title-guia-resultados{
+  font-size: 18px !important;
+}
 
 .modal-dialog {
   position: relative;
@@ -11801,7 +11792,8 @@ padding-left: 1px!important;
 }
 
 .modal-dialog-VideoRIMA{
-  margin-top: 10%;
+  margin-top: 2%;
+  height: 63% !important;
 }
 
 .link-options1, .link-options2, .link-options3, .link-options4, .link-options5, .link-options6, .link-options7{
@@ -11983,6 +11975,11 @@ padding-left: 1px!important;
   margin-bottom: 15px;
 }
 
+.card-rima-transmision-resultados{
+  background-color: none !important;
+  background-image: url("assets\img\transmision_resultados.jpg") !important;
+}
+
 .card-resultados-color{
   background-color: rgb(180, 199, 231) !important;
   color: white !important;
@@ -12003,6 +12000,33 @@ padding-left: 1px!important;
 
 .btn-click-ver-resultados:hover{
   background-color: rgba(160, 179, 211, 0.8) !important;
+}
+
+.btn-live-results{
+  width: 320px !important;
+}
+
+.gif-en-vivo{
+  width: 300px !important;
+}
+
+.transmision-en-vivo-rima {
+  width: 100% !important;
+  height: 420px !important;
+}
+
+.modal-content-video-transmision{
+  height: 100% !important;
+}
+
+.btn-resutlados-en-vivo{
+  width: 200px !important;
+  height: 50px !important;
+  font-size: 26px;
+}
+
+.img-evento-fecha{
+  width: 50% !important;
 }
 
 .list-group .list-group-item:first-child{
@@ -12040,7 +12064,7 @@ padding-left: 1px!important;
 
 @media (max-width: 950px) {
   .modal-dialog-VideoRIMA{
-    margin-top: 50%;
+    margin-top: 5%;
   }
 
   .card-rima-information{
