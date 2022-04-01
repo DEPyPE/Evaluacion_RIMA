@@ -1,15 +1,4 @@
-@charset "UTF-8";
-/*!
-* Start Bootstrap - Creative v7.0.5 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11308,10 +11297,6 @@ body {
   padding: 3rem 0;
 }
 
-.page-section-about{
-  background-color: #0082FF !important;
-}
-
 .icon-color-darkblue{
   color: #2e3d81 !important;
 }
@@ -11565,6 +11550,22 @@ header.masthead h1, header.masthead .h1 {
 .IsNotRIma_ImgFloatLeft{
   display: block;
     margin: auto;
+}
+
+.page-section-about{
+  background-color: #0d6efd !important;
+
+  /*
+  max-height: 100% !important;
+  padding: 40px 50px 10px 50px !important;
+  margin: -140px 280px 50px 280px !important;
+
+  border-radius: 15px;
+  backdrop-filter: blur(8px);*/
+
+  /* Color verde agua bonito
+  rgba(100, 200, 200, 0.9)
+  */
 }
 
 .page-section-InNotRIMA{
@@ -11836,6 +11837,54 @@ padding-left: 1px!important;
   text-align: left;
 }
 
+.badge-in-future{
+  position: absolute;
+  right: 10px;
+  width: auto;  
+  background-color: #607d8b;
+  color: white;
+  font-size: 11px;
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+  margin-bottom: 15px;
+}
+
+.card-abcRIMA-style{
+  height: 300px !important;
+  margin-bottom: 25px !important;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
+  border-radius: 15px !important;
+}
+
+.card-abcRIMA-style:hover{
+  cursor: pointer;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%) !important;  
+}
+
+.card-title{
+  color: black !important;
+  text-align: center;
+  font-family: 'Baloo 2' !important;
+  font-weight: bold !important;
+}
+
+.card-img-top{
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.btn-ver-fasciculos{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.video-promocional-resultados{
+  width: 320px;
+  height: 240px;
+
+}
 
 @media (max-width: 500px) {
   .modal-dialog-resultados-menu{
@@ -11858,11 +11907,6 @@ padding-left: 1px!important;
   .ImportantDocAndLinks{
     font-size: 30px !important;
     padding: 0 30px 0 30px;
-  }
-
-  .page-section-about{
-      max-height: 100% !important;
-      padding: 30px 50px 25px 50px !important;
   }
 
   .page-section-information{
@@ -11981,9 +12025,33 @@ padding-left: 1px!important;
 .card-rima-information{
   width: 100% !important;
   height: 285px !important;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  margin-bottom: 15px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+
+}
+
+.card-group-information-RIMA{
   border-radius: 15px !important;
   box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
-  margin-bottom: 15px;
+  padding: 0 !important;
+}
+
+.card-group > .cri-first{
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+}
+
+.card-group > .cri-last{
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15x !important;
+}
+
+.card-rima-transmision-resultados{
+  background-color: none !important;
+  background-image: url("assets\img\transmision_resultados.jpg") !important;
 }
 
 .card-rima-transmision-resultados{
@@ -12097,11 +12165,6 @@ padding-left: 1px!important;
     max-width: 110% !important;
     margin-left: 0px !important;
     background-size: cover;
-  }
-
-  .page-section-about{
-      max-height: 100% !important;
-      padding: 30px 50px 25px 50px !important;
   }
 
   .page-section-information{

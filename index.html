@@ -29,6 +29,8 @@
         google.charts.setOnLoadCallback(accionGrafica($("#selectIndicadorSocial").val()));
     </script>
     <script src="https://www.google.com/jsapi?autoload={%20%20%20%20%20%20%20%20%20%20%20%20%27modules%27:[{%20%20%20%20%20%20%20%20%20%20%20%20%20%20%27name%27:%27visualization%27,%20%20%20%20%20%20%20%20%20%20%20%20%20%20%27version%27:%271%27,%20%20%20%20%20%20%20%20%20%20%20%20%20%20%27packages%27Emoticono%20frown%27corechart%27,%27motionchart%27]%20%20%20%20%20%20%20%20%20%20%20%20}]%20%20%20%20%20%20%20%20%20%20}" type="text/javascript"></script>
+
+ 
 </head>
 
 <body>   
@@ -67,7 +69,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="jumbotronazul jumbotron-fluid">
                             <div class="container">
-                                    <section class="page-section page-section-about bg-primary" id="about">
+                                    <section class="page-section page-section-about" id="about">
                                         <div class="container">
 
                                             <div class="row justify-content-center">
@@ -76,14 +78,28 @@
                                                     <div class="text-center"> <img class="card-img-top imgQueEsRIMA" src="assets/img/RIMA_tex2_aux.png" alt="Card image cap"></div></div>
                                                         
                                                     <hr class="divider divider-light divider-white" />
+
+                                                    <h4 class="text-center mt-0 font-SEG text-white RIMA-description">RIMA es la Recopilación de Información para la Mejora de los Aprendizajes, la cual está encaminada a apoyar a los docentes, estudiantes, madres y padres de familia para realizar estrategias que abonen a la mejora de los aprendizajes de los estudiantes.</h4>
+                                                    <br><br>
                                                     
-                                                    <h4 class="text-center mt-0 font-SEG text-white RIMA-description">RIMA es la Recopilación de Información para la Mejora de los Aprendizajes, la cual está encaminada a apoyar a los docentes, padres de familia y alumnos para realizar estrategias que abonen a la mejora de los aprendizajes de los estudiantes.</h4>
-                                                    <br>
-                                                    <h2 class="text-center mt-4 text-white font-SEG">Evento para la presentación de resultados:</h2>
-                                                    <h2 class="text-center mt-4 text-white font-SEG">
-                                                        <img class="gif-en-vivo" src="assets/img/live.gif" alt=""><br>
-                                                        <button type="button" class="btn btn-info btnShowVideoRIMA btn-resutlados-en-vivo" data-bs-toggle="modal" data-bs-target="#ModalVideoRIMA"> Ver evento </button>
-                                                    </h2>
+                                                    <div class="row">
+                                                        <div class="col-lg-1"></div>
+                                                        <div class="col-lg-5">
+                                                            <h4 class="text-center mt-4 text-white font-SEG">Consulta los resultados de tus hijos</h4>
+                                                            <video src="video/Consulta resultados hijo.mp4" class="video-promocional-resultados" controls poster="">
+                                                                
+                                                            </video>
+                                                        </div>
+                                                        <div class="col-lg-5">
+                                                            
+                                                            <br>
+                                                            <h4 class="text-center mt-4 text-white font-SEG">Evento "Contrastes y acciones por el futuro de la educación en Guanajuato":<br> 29 de marzo, 12:00pm </h4>
+                                                            <h4 class="text-center mt-4 text-white font-SEG">
+                                                                <button type="button" class="btn btn-info btnShowVideoRIMA" data-bs-toggle="modal" data-bs-target="#ModalVideoRIMA"> Ver evento </button>
+                                                            </h4>
+                                                        </div>
+                                                        <div class="col-lg-1"></div>
+                                                    </div>
 
                                                 </div>
                                             </div>
@@ -132,46 +148,27 @@
                                 <div class="col-lg-10">
                                     <div class="row">
 
-                                        <!-- ¿Cuándo será la aplicación -->
-                                        <div class="col-lg-3">
-                                            <div class="card text-center card-rima-information" style="width: 18rem;">
-                                                <div class="card-body">
-                                                    <div class="mb-2"> <i class="bi bi-calendar-event fs-1 icon-color-darkblue"></i></div>
-                                                    <h3 class="h4 mb-2 font-SEG" style="color:#113862;">¿Cuándo será la aplicación?</h3>
-                                                    <p class="text-muted mb-0"><font face="proxima-Nova-Reg" >Del 29 de noviembre al <br> 10 de diciembre de 2021</font></p>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <!-- Sobre los aprendizajes -->
-                                        <div class="col-lg-3">
-                                            <div class="card text-center card-rima-information" style="width: 18rem;">
+                                        <div class="card-group card-group-information-RIMA">
+
+                                          
+
+                                            <div class="card text-center card-rima-information">
                                                 <div class="card-body">
                                                     <div class="mb-2"><i class="bi bi-book-half fs-1 icon-color-darkblue"></i></div>
                                                     <h3 class="h4 mb-2 font-SEG" style="color:#113862;">Sobre los aprendizajes</h3>
                                                     <p class="text-muted mb-0"><font face="proxima-Nova-Reg">Campos de conocimiento: <br> Español, Matemáticas, Habilidades Socioemocionales (5to de primaria y 2do de Secundaria) e incluye un cuestionario de contexto.</p></font>
                                                 </div>
                                             </div>
-                                        </div>
-    
-                                        <!-- ¿A quién se aplica? -->
-                                        <div class="col-lg-3">
-    
-                                            <div class="card text-center card-rima-information" style="width: 18rem;">
+
+                                            <div class="card text-center card-rima-information">
                                                 <div class="card-body">
                                                     <div class="mb-2"><i class="bi bi-person-lines-fill fs-1 icon-color-darkblue"></i></div>
-                                                    <h3 class="h4 mb-2 font-SEG" style="color:#113862;">¿A quiénes se aplica?</h3>
+                                                    <h3 class="h4 mb-2 font-SEG" style="color:#113862;">¿A quiénes aplicó?</h3>
                                                     <p class="text-muted mb-0"><font face="proxima-Nova-Reg">Estudiantes de escuelas públicas y privadas de: <br> • 4to, 5to y 6to de primaria <br> • 1ro, 2do y 3ro de secundaria</font></p>
                                                 </div>
                                             </div>
-    
-                                        </div>
-                                        
-                                        <!-- Resultados -->
-                                        <div class="col-lg-3">
-    
-                                            <!--<div class="card text-center card-rima-information card-resultados-color" style="width: 18rem;"></div>-->
-                                            <div class="card text-center card-rima-information" style="width: 18rem;">
+
+                                            <div class="card text-center card-rima-information card-resultados-color cri-last">
                                                 <div class="card-body ">
                                                     <!--
                                                         <div class="mb-2"><i class="bi bi-calendar2-check fs-1 icon-color-resultados"></i></div>
@@ -187,9 +184,32 @@
                                                     </p>-->
                                                 </div>
                                             </div>
-    
+
                                         </div>
 
+                                        <!-- ¿Cuándo será la aplicación -->
+                                        <div class="col-lg-3">
+
+                                        </div>
+    
+                                        <!-- Sobre los aprendizajes -->
+                                        <div class="col-lg-3">
+
+                                        </div>
+    
+                                        <!-- ¿A quién se aplica? -->
+                                        <div class="col-lg-3">
+    
+
+    
+                                        </div>
+                                        
+                                        <!-- Resultados -->
+                                        <div class="col-lg-3">
+    
+
+    
+                                        </div>
                                     </div>
                                 </div>
                 
@@ -213,7 +233,7 @@
                         <div class="row">
                             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                               <div class="list-group list-group-menu-actores" id="list-tab" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-estudiantes-menu-option" data-toggle="list" href="#list-home-item" role="tab" aria-controls="home">Estudiantes</a>
+                                <a class="list-group-item list-group-item-actionactive" id="list-estudiantes-menu-option" data-toggle="list" href="#list-home-item" role="tab" aria-controls="home">Estudiantes</a>
                                 <a class="list-group-item list-group-item-action" id="list-familia-menu-option" data-toggle="list" href="#list-familia-item" role="tab" aria-controls="profile">Madre/Padre de familia o tutor</a>
                                 <a class="list-group-item list-group-item-action" id="list-autoridades-menu-option" data-toggle="list" href="#list-autoridades-item" role="tab" aria-controls="messages">Jefes de sector/Supervisores/Directores y Docentes</a>
                                 <a class="list-group-item list-group-item-action" id="list-general-menu-option" data-toggle="list" href="#list-general-item" role="tab" aria-controls="settings">Resultados estatales (público en general)</a>
@@ -224,36 +244,35 @@
                               <div class="tab-content" id="nav-tabContent">  
                                 <div class="tab-pane fade show active" id="list-home-item" role="tabpanel" aria-labelledby="list-estudiantes-menu-option">
                                     <div class="list-group">
-                                        <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
-                                        <a href="#" class="list-group-item list-group-item-action">Tutorial</a>
+                                        <a href="https://trayectoriaeducativa.seg.guanajuato.gob.mx/" target="_blank" class="list-group-item list-group-item-action">Ver resultados</a>
+                                        <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/Guia%20uso%20de%20reportes%20RIMA_Madres%2C%20Padres%20Familia.pdf" target="blank" class="list-group-item list-group-item-action">Tutorial</a>
                                     </div>
                                 </div>
                                 
                                 <div class="tab-pane fade" id="list-familia-item" role="tabpanel" aria-labelledby="list-familia-menu-option">
                                     <div class="list-group">
-                                        <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
-                                        <a href="#" class="list-group-item list-group-item-action">Tutorial</a>
+                                        <a href="https://trayectoriaeducativa.seg.guanajuato.gob.mx/" target="_blank" class="list-group-item list-group-item-action">Ver resultados</a>
+                                        <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/Guia%20uso%20de%20reportes%20RIMA_Madres%2C%20Padres%20Familia.pdf" target="_blank" class="list-group-item list-group-item-action">Tutorial</a>
                                     </div>
                                 </div>
                                 
                                 <div class="tab-pane fade" id="list-autoridades-item" role="tabpanel" aria-labelledby="list-autoridades-menu-option">
                                     <div class="list-group">
-                                        <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
-                                        <a href="#" class="list-group-item list-group-item-action">Tutorial</a>
+                                        <a href="http://seg-qlik02.seg.guanajuato.gob.mx/QvAJAXZfc/opendoc.htm?document=prueba%5Cindicadores%20educativos.qvw&lang=en-US&host=QVS%40qlik-view02&anonymous=true" target="_blank" class="list-group-item list-group-item-action">Ver resultados</a>
+                                        <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/Guia%20uso%20de%20reportes%20y%20analisis%20de%20resultados%20RIMA.pdf" target="_blank"  class="list-group-item list-group-item-action">Tutorial</a>
                                     </div><br>
 
                                     <div class="list-group">
-                                        <a href="#" class="list-group-item list-group-item-action">Unidad de análisis, alineación con CONCUPRISE</a>
-                                        <a href="#" class="list-group-item list-group-item-action">Guía para el uso de los reportes y análisis de los resultados</a>
-                                        <a href="#" class="list-group-item list-group-item-action">Infografías ABC de RIMA</a>
-                                        <a href="#" class="list-group-item list-group-item-action">Documentos metodológicos</a>
-                                        <a href="#" class="list-group-item list-group-item-action">Orientación didáctica</a>
+                                        <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/Analisis%20CONCUPRISE-RIMA.xlsx" target="_blank" class="list-group-item list-group-item-action">Unidad de análisis, alineación con CONCUPRISE</a>
+                                        <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/Guia%20uso%20de%20reportes%20y%20analisis%20de%20resultados%20RIMA.pdf" target="_blank" class="list-group-item list-group-item-action">Guía para el uso de los reportes y análisis de los resultados</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Documentos metodológicos<span class="badge-in-future">Próximante</span></a>
+                                        <a href="#" class="list-group-item list-group-item-action">Orientación didáctica<span class="badge-in-future">Próximante</span></a>
                                     </div>
                                 </div>
 
                                 <div class="tab-pane fade" id="list-general-item" role="tabpanel" aria-labelledby="list-general-menu-option">
                                     <div class="list-group">
-                                        <a href="#" class="list-group-item list-group-item-action">Ver resultados</a>
+                                        <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/PRESENTACION%20RIMA.pdf" target="_blank" class="list-group-item list-group-item-action">Ver resultados </a>
                                     </div>
                                 </div>
                               </div>
@@ -266,7 +285,7 @@
 
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
                     </div>
               
                   </div>
@@ -531,153 +550,97 @@
                 </div>
             </div>
 
-            <!-- Qué no es RIMA -->
+            <!-- ABC de RIMA -->
             <section class="container">
                 <div class="row1">
                     <div class="col-lg-12 col-md-12">
                         <section class="page-section page-section-InNotRIMA" id="services">
                             <div class="container px-4 px-lg-5">
-                                <h2 class="text-center mt-0 font-SEG QueNoEsRIMA-text">Qué no es RIMA</h2>
+                                <h2 class="text-center mt-0 font-SEG QueNoEsRIMA-text">ABC de RIMA</h2>
                                 <hr class="divider divider-blue" />
-                            <div class="row gx-4 gx-lg-5">
-
-                            <!-- IMAGEN 1 -->
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5 isNotRIMA-TextContainer">      
-                                    <h3 class="h4 font-SEG2 text-left isNotRIMA-TextAlignRight">RIMA, no es una evaluación para hacer ranking de escuelas y mucho menos de alumnos.</h3>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5">      
-                                    <div>
-                                        <img class="IsNotRIma_ImgFloatLeft" src="assets/IsNotRIma_Img1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-1"></div>
-
-                            <!-- IMAGEN 2 -->
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-5 col-md-6 ShowXL-HideSM">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainerLeft">
-                                        <img class="IsNotRIma_ImgFloatRight" src="assets/IsNotRIma_Img2.png">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5 isNotRIMA-TextContainer">
-                                    <h3 class="h4 mb-2 font-SEG2 isNotRIMA-TextAlignLeft">RIMA no es una evaluación punitiva sobre el desempeño de alumnos y docentes.</h3>
-                                </div>
-                            </div>
-
-                            <!-- OCULTAR EN MD, XL y XXL PERO MOSTRAR EN SM y XSM -->
-                            <div class="col-lg-5 col-md-6 HideXL-ShowSM">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainerLeft">
-                                        <img class="IsNotRIma_ImgFloatRight" src="assets/IsNotRIma_Img2.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-1"></div>
-
-                            <!-- IMAGEN 3 -->
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5 isNotRIMA-TextContainer">
-                                    <h3 class="h4 mb-2 font-SEG2 isNotRIMA-TextAlignRight">RIMA no es una evaluación dictada por la federación (SEP, MEJOREDU), es una estrategia diseñada y ejecutada por la Secretaría de Educación de Guanajuato.</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainer">
-                                        <img class="IsNotRIma_ImgFloatLeft" src="assets/IsNotRIma_Img3.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-1"></div>
-
-                            <!-- IMAGEN 4 -->
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-5 col-md-6 ShowXL-HideSM">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainer">
-                                        <img class="IsNotRIma_ImgFloatRight" src="assets/IsNotRIma_Img4.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5 isNotRIMA-TextContainer">
-                                    <h3 class="h4 mb-2 font-SEG2 isNotRIMA-TextAlignLeft">RIMA, no es una evaluación que tenga un costo para los alumnos, la SEG ha gestionado los materiales para su aplicación totalmente GRATUITA en las escuelas.</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6 HideXL-ShowSM">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainer">
-                                        <img class="IsNotRIma_ImgFloatRight" src="assets/IsNotRIma_Img4.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-1"></div>
-
-                            <!-- IMAGEN 5 -->
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5 isNotRIMA-TextContainer">
-                                    <h3 class="h4 mb-2 font-SEG2 isNotRIMA-TextAlignRight">RIMA no es una evaluación que se REPRUEBA, es una evaluación que te dará un diagnóstico sobre un conjunto de aprendizajes esperados en los campos de Español y Matemáticas.</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainer">
-                                        <img class="IsNotRIma_ImgFloatLeft" src="assets/IsNotRIma_Img5.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-1"></div>
-
-                            <!-- IMAGEN 6 -->
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-5 col-md-6 ShowXL-HideSM">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainer">
-                                        <img class="IsNotRIma_ImgFloatLeft" src="assets/IsNotRIma_Img7.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5 isNotRIMA-TextContainer">
-                                    <h3 class="h4 mb-2 font-SEG2 isNotRIMA-TextAlignLeft">RIMA no debe utilizarse para justificar procesos punitivos u otros de control administrativo sobre estudiantes, docentes o escuelas.</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6 HideXL-ShowSM">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainer">
-                                        <img class="IsNotRIma_ImgFloatLeft" src="assets/IsNotRIma_Img7.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-1"></div>
-
-                            <!-- IMAGEN 7 -->
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5 isNotRIMA-TextContainer">
-                                    <h3 class="h4 mb-2 font-SEG2 isNotRIMA-TextAlignRight">RIMA no dará a los alumnos una calificación.</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="mt-5">      
-                                    <div class="ImgIsNotRIMA_ImgContainer">
-                                        <img class="IsNotRIma_ImgFloatLeft adjust-img-sm" src="assets/IsNotRIma_Img6.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-1"></div>
                             
+                            <div class="row">
+
+                                <div class="col-lg-2 col-md-2"></div>
+                                <div class="col-lg-8 col-md-8">
+                                    <div class="row">
+                                        
+                                        <div class="col">
+                                            <div class="card card-abcRIMA-style">
+                                                <img class="card-img-top" src="assets/img/ABC_RIMA/image1.PNG" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">¿Qué es RIMA?</h5>
+                                                    <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/1_Qu%C3%A9%20es%20RIMA.pdf" target="_blank" class="btn btn-primary btn-ver-fasciculos">Ver fascículo</a>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col">
+                                            <div class="card card-abcRIMA-style">
+                                                <img class="card-img-top" src="assets/img/ABC_RIMA/image2.PNG" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">¿Qué no es RIMA?</h5>
+                                                    <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/2_Qu%C3%A9%20NO%20es%20RIMA.pdf" target="_blank" class="btn btn-primary btn-ver-fasciculos">Ver fascículo</a>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col">
+                                            <div class="card card-abcRIMA-style">
+                                                <img class="card-img-top" src="assets/img/ABC_RIMA/image3.PNG" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">¿Qué evalúa RIMA?</h5>
+                                                    <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/3_Qu%C3%A9%20eval%C3%BAa%20RIMA.pdf" target="_blank" class="btn btn-primary btn-ver-fasciculos">Ver fascículo</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2"></div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-lg-2 col-md-2"></div>
+                                <div class="col-lg-8 col-md-8">
+                                    <div class="row">
+
+                                        <div class="col">
+                                            <div class="card card-abcRIMA-style">
+                                                <img class="card-img-top" src="assets/img/ABC_RIMA/image5.PNG" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">¿Cómo usar los resultados?</h5>
+                                                    <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/5_C%C3%B3mo%20usar%20los%20Resultados.pdf" target="_blank" class="btn btn-primary btn-ver-fasciculos">Ver fascículo</a>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col">
+                                            <div class="card card-abcRIMA-style">
+                                                <img class="card-img-top" src="assets/img/ABC_RIMA/image6.PNG" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">¿Qué hacer con los resultados?</h5>
+                                                    <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/6_Qu%C3%A9%20hacer%20con%20los%20Resultados.pdf" target="_blank" class="btn btn-primary btn-ver-fasciculos">Ver fascículo</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
+                                            <div class="card card-abcRIMA-style">
+                                                <img class="card-img-top" src="assets/img/ABC_RIMA/image4.PNG" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Calidad del proceso</h5>
+                                                    <a href="https://www.seg.guanajuato.gob.mx/RIMA/SitePages/docs/4_Calidad%20del%20Proceso.pdf" target="_blank" class="btn btn-primary btn-ver-fasciculos">Ver fascículo</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2"></div>
+                            </div>
+
                         </section>
                     </div>
                 </div>
