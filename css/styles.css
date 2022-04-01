@@ -12030,23 +12030,23 @@ padding-left: 1px!important;
   margin-bottom: 15px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-
+  
 }
 
 .card-group-information-RIMA{
   border-radius: 15px !important;
-  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 32%) !important;
   padding: 0 !important;
 }
 
-.card-group > .cri-first{
+.card-group > .cri-1{
   border-top-left-radius: 15px !important;
   border-bottom-left-radius: 15px !important;
 }
 
-.card-group > .cri-last{
+.card-group > .cri-3{
   border-top-right-radius: 15px !important;
-  border-bottom-right-radius: 15x !important;
+  border-bottom-right-radius: 15px !important;
 }
 
 .card-rima-transmision-resultados{
@@ -12143,6 +12143,20 @@ padding-left: 1px!important;
 
   .card-rima-information{
     height: auto !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .card-group > .cri-1{
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  
+  .card-group > .cri-3{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
   }
 
   .row-docs-aplicacion, .link-image2, .link-image3, .link-image4, .link-image5, .link-image6, .link-image7, .link-image8, .link-image9,
