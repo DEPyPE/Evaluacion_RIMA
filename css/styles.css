@@ -11828,7 +11828,7 @@ padding-left: 1px!important;
 .badge-in-future{
   position: absolute;
   right: 10px;
-  width: auto;
+  width: auto;  
   background-color: #607d8b;
   color: white;
   font-size: 11px;
@@ -11837,6 +11837,42 @@ padding-left: 1px!important;
   margin-bottom: 15px;
 }
 
+.card-abcRIMA-style{
+  height: 300px !important;
+  margin-bottom: 25px !important;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
+  border-radius: 15px !important;
+}
+
+.card-abcRIMA-style:hover{
+  cursor: pointer;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%) !important;  
+}
+
+.card-title{
+  color: black !important;
+  text-align: center;
+  font-family: 'Baloo 2' !important;
+  font-weight: bold !important;
+}
+
+.card-img-top{
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.btn-ver-fasciculos{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.video-promocional-resultados{
+  width: 320px;
+  height: 240px;
+
+}
 
 @media (max-width: 500px) {
   .modal-dialog-resultados-menu{
@@ -11982,9 +12018,28 @@ padding-left: 1px!important;
 .card-rima-information{
   width: 100% !important;
   height: 285px !important;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  margin-bottom: 15px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+
+}
+
+.card-group-information-RIMA{
   border-radius: 15px !important;
   box-shadow: 0 2px 2px rgb(0 0 0 / 22%) !important;
-  margin-bottom: 15px;
+  padding: 0 !important;
+}
+
+.card-group > .cri-first{
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+}
+
+.card-group > .cri-last{
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15x !important;
 }
 
 .card-rima-transmision-resultados{
