@@ -11648,6 +11648,10 @@ padding-left: 1px!important;
   background: linear-gradient( 180deg, #0082be 0%, #0082be 30%, #0082be 30%, #2e3d81 75%, #2e3d81 100% ); 
 }
 
+.jumbotron-news{
+  
+}
+
 .img-RIMA-banner{
   width: 100%;
   object-fit: cover;
@@ -11701,9 +11705,17 @@ padding-left: 1px!important;
 /*  background: linear-gradient(90deg, rgba(93, 171, 194, 1) 0%, rgba(93, 171, 194, 1) 33.3%, rgba(131, 191, 201, 1) 33.3%, rgba(131, 191, 201, 1) 66.6%, rgba(167, 215, 212, 1) 66.6%, rgba(167, 215, 212, 1) 100% ); */
 }
 
-.QueNoEsRIMA-text, .ImportantDocAndLinks{
+.QueNoEsRIMA-text, .ImportantDocAndLinks, .rima-news{
   font-size: 38px !important;
   font-weight: 1000;
+}
+
+.rima-news{
+  color: #2e3d81 !important;
+}
+
+.text-dark-blue{
+  color: #2e3d81 !important;
 }
 
 .divider-blue{
@@ -11898,16 +11910,26 @@ padding-left: 1px!important;
   border-radius: 15px;
 }
 
-.triptico-portada:hover{
+.informe-portada{
+  width: 85% !important;
+  margin: 20px 20px 0px 20px;
+  border-radius: 15px;  
+}
+
+.triptico-portada:hover, .informe-portada:hover{
   transform: scale(1.1);
   transition: 0.5s;
   cursor: pointer;
 }
 
-.triptico-portada:not(:hover){
+.triptico-portada:not(:hover), .informe-portada:not(:hover){
   transform: scale(1);
   transition: 0.5s;
   cursor: pointer;
+}
+
+.title-news{
+  font-size: 36px !important;
 }
 
 @media (max-width: 500px) {
@@ -12140,6 +12162,10 @@ padding-left: 1px!important;
 .list-group .list-group-item:last-child{
   border-bottom-left-radius: 15px !important;
   border-bottom-right-radius: 15px !important;
+}
+
+.page-section-news{
+  background-color: rgba(236, 230, 230, 0.8) !important;
 }
 
 @media (min-width: 951px) {
